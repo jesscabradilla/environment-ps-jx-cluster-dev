@@ -17,3 +17,9 @@ dependencies:
   url: https://github.com/ps-jx/jx-import-test.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: ps-jx
+  repo: ps-jx-test-import
+  url: https://github.com/ps-jx/ps-jx-test-import.git
+  version: ""
+  versionURL: ""
