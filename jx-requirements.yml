@@ -1,35 +1,91 @@
+autoUpdate:
+  enabled: false
+  schedule: ""
+bootConfigURL: https://github.com/jenkins-x/jenkins-x-boot-config
 cluster:
-  clusterName: ""
-  environmentGitOwner: ""
-  environmentGitPublic: false
-  project: ""
+  clusterName: ps-jx-cluster
+  devEnvApprovers:
+  - ps-jx-pipeline-bot
+  - mogronalol
+  environmentGitOwner: ps-jx
+  gitKind: github
+  gitName: github
+  gitServer: https://github.com
+  namespace: jx
+  project: pluralsight-jenkins-x-course-2
   provider: gke
-  zone: ""
-gitops: true
+  registry: gcr.io
+  vaultName: ps-jx-cluster
+  vaultSAName: ps-jx-cluster-vt
+  zone: us-central1-a
 environments:
-- key: dev
-- key: staging
-- key: production
+- ingress:
+    domain: 35.192.49.117.nip.io
+    externalDNS: false
+    namespaceSubDomain: -jx.
+    tls:
+      email: ""
+      enabled: false
+      production: true
+  key: dev
+  repository: environment-ps-jx-cluster-dev
+- ingress:
+    domain: ""
+    externalDNS: false
+    namespaceSubDomain: ""
+    tls:
+      email: ""
+      enabled: false
+      production: false
+  key: staging
+  repository: environment-ps-jx-cluster-staging
+- ingress:
+    domain: ""
+    externalDNS: false
+    namespaceSubDomain: ""
+    tls:
+      email: ""
+      enabled: false
+      production: false
+  key: production
+  repository: environment-ps-jx-cluster-production
+gitops: true
 ingress:
-  domain: ""
+  domain: 35.192.49.117.nip.io
   externalDNS: false
+  namespaceSubDomain: -jx.
   tls:
     email: ""
     enabled: false
-    production: false
+    production: true
 kaniko: true
-secretStorage: local
+repository: nexus
+secretStorage: vault
 storage:
+  backup:
+    enabled: true
+    url: gs://backup-ps-jx-cluster-ea3c8ec68c49
   logs:
-    enabled: false
-    url: ""
+    enabled: true
+    url: gs://logs-ps-jx-cluster-ea3c8ec68c49
   reports:
-    enabled: false
-    url: ""
+    enabled: true
+    url: gs://reports-ps-jx-cluster-ea3c8ec68c49
   repository:
-    enabled: false
-    url: ""
+    enabled: true
+    url: gs://repository-ps-jx-cluster-ea3c8ec68c49
+vault:
+  bucket: vault-ps-jx-cluster-ea3c8ec68c49
+  key: crypto-key-ps-jx-cluster-ea3c8ec68c49
+  keyring: keyring-ps-jx-cluster-ea3c8ec68c49
+  name: ps-jx-cluster
+  serviceAccount: ps-jx-cluster-vt
+velero:
+  namespace: velero
+  schedule: 0 * * * *
+  serviceAccount: ps-jx-cluster-vo
+  ttl: 720h0m0s
 versionStream:
-  ref: "master"
+  ref: v1.0.439
   url: https://github.com/jenkins-x/jenkins-x-versions.git
 webhook: prow
