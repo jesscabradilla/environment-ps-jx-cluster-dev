@@ -5,3 +5,9 @@ dependencies:
   url: https://github.com/ps-jx/test.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: ps-jx
+  repo: test1
+  url: https://github.com/ps-jx/test1.git
+  version: ""
+  versionURL: ""
