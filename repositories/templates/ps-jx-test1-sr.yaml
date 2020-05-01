@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: ps-jx
+    provider: github
+    repository: test1
+  name: ps-jx-test1
+spec:
+  description: Imported application for ps-jx/test1
+  httpCloneURL: https://github.com/ps-jx/test1.git
+  org: ps-jx
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: test1
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/ps-jx/test1.git
