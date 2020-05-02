@@ -23,3 +23,9 @@ dependencies:
   url: https://github.com/ps-jx/ps-jx-test-import.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: ps-jx
+  repo: ps-jx-java-quickstart
+  url: https://github.com/ps-jx/ps-jx-java-quickstart.git
+  version: ""
+  versionURL: ""
