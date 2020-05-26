@@ -8,3 +8,4 @@ Dependency | Sources | Version | Mismatched versions
 [ps-jx/ps-jx-test-import](https://github.com/ps-jx/ps-jx-test-import.git) |  | []() | 
 [ps-jx/ps-jx-java-quickstart](https://github.com/ps-jx/ps-jx-java-quickstart.git) |  | []() | 
 [ps-jx/ps-jx-preview-env](https://github.com/ps-jx/ps-jx-preview-env.git) |  | []() | 
+[ps-jx/foo](https://github.com/ps-jx/foo.git) |  | []() | 
