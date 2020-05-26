@@ -41,3 +41,9 @@ dependencies:
   url: https://github.com/ps-jx/foo.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: ps-jx
+  repo: custom-quickstart
+  url: https://github.com/ps-jx/custom-quickstart.git
+  version: ""
+  versionURL: ""
