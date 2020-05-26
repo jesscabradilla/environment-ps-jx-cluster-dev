@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: ps-jx
+    provider: github
+    repository: custom-quickstart
+  name: ps-jx-custom-quickstart
+spec:
+  description: Imported application for ps-jx/custom-quickstart
+  httpCloneURL: https://github.com/ps-jx/custom-quickstart.git
+  org: ps-jx
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: custom-quickstart
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/ps-jx/custom-quickstart.git
