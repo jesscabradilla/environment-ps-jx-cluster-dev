@@ -35,3 +35,9 @@ dependencies:
   url: https://github.com/ps-jx/ps-jx-preview-env.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: ps-jx
+  repo: foo
+  url: https://github.com/ps-jx/foo.git
+  version: ""
+  versionURL: ""
