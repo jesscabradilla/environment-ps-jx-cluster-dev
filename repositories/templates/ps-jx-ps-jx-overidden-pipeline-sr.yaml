@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: ps-jx
+    provider: github
+    repository: ps-jx-overidden-pipeline
+  name: ps-jx-ps-jx-overidden-pipeline
+spec:
+  description: Imported application for ps-jx/ps-jx-overidden-pipeline
+  httpCloneURL: https://github.com/ps-jx/ps-jx-overidden-pipeline.git
+  org: ps-jx
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: ps-jx-overidden-pipeline
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/ps-jx/ps-jx-overidden-pipeline.git

@@ -11,3 +11,4 @@ Dependency | Sources | Version | Mismatched versions
 [ps-jx/foo](https://github.com/ps-jx/foo.git) |  | []() | 
 [ps-jx/custom-quickstart](https://github.com/ps-jx/custom-quickstart.git) |  | []() | 
 [ps-jx/ps-jx-versioning-with-makefile](https://github.com/ps-jx/ps-jx-versioning-with-makefile.git) |  | []() | 
+[ps-jx/ps-jx-overidden-pipeline](https://github.com/ps-jx/ps-jx-overidden-pipeline.git) |  | []() | 
