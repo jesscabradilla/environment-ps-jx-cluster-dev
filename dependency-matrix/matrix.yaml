@@ -53,3 +53,9 @@ dependencies:
   url: https://github.com/ps-jx/ps-jx-versioning-with-makefile.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: ps-jx
+  repo: ps-jx-overidden-pipeline
+  url: https://github.com/ps-jx/ps-jx-overidden-pipeline.git
+  version: ""
+  versionURL: ""
