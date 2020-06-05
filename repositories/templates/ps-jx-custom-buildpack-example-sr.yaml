@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: ps-jx
+    provider: github
+    repository: custom-buildpack-example
+  name: ps-jx-custom-buildpack-example
+spec:
+  description: Imported application for ps-jx/custom-buildpack-example
+  httpCloneURL: https://github.com/ps-jx/custom-buildpack-example.git
+  org: ps-jx
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: custom-buildpack-example
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/ps-jx/custom-buildpack-example.git
