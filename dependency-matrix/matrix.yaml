@@ -49,7 +49,7 @@ dependencies:
   versionURL: ""
 - host: github.com
   owner: ps-jx
-  repo: custom-buildpack-example
-  url: https://github.com/ps-jx/custom-buildpack-example.git
+  repo: ps-jx-versioning-with-makefile
+  url: https://github.com/ps-jx/ps-jx-versioning-with-makefile.git
   version: ""
   versionURL: ""
