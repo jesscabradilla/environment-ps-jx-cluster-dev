@@ -59,3 +59,9 @@ dependencies:
   url: https://github.com/ps-jx/ps-jx-overidden-pipeline.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: ps-jx
+  repo: my-go-project
+  url: https://github.com/ps-jx/my-go-project.git
+  version: ""
+  versionURL: ""
