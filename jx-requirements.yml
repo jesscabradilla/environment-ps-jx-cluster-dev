@@ -47,6 +47,16 @@ environments:
       email: ""
       enabled: false
       production: false
+  key: performance
+  repository: environment-ps-jx-cluster-performance
+- ingress:
+    domain: ""
+    externalDNS: false
+    namespaceSubDomain: ""
+    tls:
+      email: ""
+      enabled: false
+      production: false
   key: production
   repository: environment-ps-jx-cluster-production
 gitops: true
