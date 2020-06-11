@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: ps-jx
+    provider: github
+    repository: my-go-project
+  name: ps-jx-my-go-project
+spec:
+  description: Imported application for ps-jx/my-go-project
+  httpCloneURL: https://github.com/ps-jx/my-go-project.git
+  org: ps-jx
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: my-go-project
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/ps-jx/my-go-project.git

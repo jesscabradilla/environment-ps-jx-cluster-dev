@@ -12,3 +12,4 @@ Dependency | Sources | Version | Mismatched versions
 [ps-jx/custom-quickstart](https://github.com/ps-jx/custom-quickstart.git) |  | []() | 
 [ps-jx/ps-jx-versioning-with-makefile](https://github.com/ps-jx/ps-jx-versioning-with-makefile.git) |  | []() | 
 [ps-jx/ps-jx-overidden-pipeline](https://github.com/ps-jx/ps-jx-overidden-pipeline.git) |  | []() | 
+[ps-jx/my-go-project](https://github.com/ps-jx/my-go-project.git) |  | []() | 
